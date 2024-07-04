@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<link rel="icon" type="image/x-icon" href="https://ssl.gstatic.com/classroom/favicon.png">
+		<title>Home</title>
+		<script>
+			function startup() {
+				start()
+				
+			}
+			function start() {
+				document.getElementById('rammerhead').hidden = true
+				document.getElementById('mainContent').hidden = true
+			}
+      		function mainContent() {
+				start()
+				document.getElementById('mainContent').hidden = false
+			}
+			function rammerhead() {
+				start()
+				document.getElementById('rammerhead').hidden = false
+			}
+		</script>
+		<style>
+		</style>
+	</head>
+
+	<body onload="startup()">
+
+		<!-- System Screens -->
+		<div id="head" class="head">
+
+		</div>
+		<div id="splashMain" class="splashMain">
+
+		</div>
+		<div id="splashError" class="splashError">
+
+		</div>
+
+		<!-- Main Content -->
+		<div id="mainContent" class="mainContent"></div>
+		<div id="rammerhead" class="rammerhead">
+			<iframe src="https://pans.k.vu/" style="position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;">Your browser doesn't support iframes</iframe>
+		</div>
+		<button onclick="rammerhead()">e</button>
+		<button onclick="mainContent()">e</button>
+		
+	</body>
+
+</html>
