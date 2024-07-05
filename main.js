@@ -3,51 +3,51 @@ function enter(){
     var pass = document.getElementById("pass").value;
   
   if(user == "v0idk" && pass == "Randompassword"){
-              publifram()
+              main()
      }
     else if(user == "e" && pass == "goob"){
-              publifram()
+              main()
      }
     else if(user == "e" && pass == "goob"){
-              publifram()
+              main()
      }
     else if(user == "e" && pass == "goob"){
-              publifram()
+              main()
      }
     else if(user == "e" && pass == "goob"){
-              publifram()
+              main()
      }
     else if(user == "e" && pass == "goob"){
-              publifram()
+              main()
      }
     else if(user == "e" && pass == "goob"){
-              publifram()
+              main()
      }
     else if(user == "e" && pass == "goob"){
-              publifram()
+              main()
      }
     else if(user == "e" && pass == "goob"){
-              publifram()
+              main()
      }
     else if(user == "e" && pass == "goob"){
-              publifram()
+              main()
      }
     else if(user == "e" && pass == "goob"){
-              publifram()
+              main()
      }
     else if(user == "e" && pass == "goob"){
-              publifram()
+              main()
      }
     else if(user == "e" && pass == "goob"){
-              publifram()
+              main()
      }
     else if(user == "e" && pass == "goob"){
-              publifram()
+              main()
      }
     else if(user == "e" && pass == "goob"){
-              publifram()
+              main()
      }
     else{
-      alert("Incorrect Credentials");
+      splashError()
       }
   }

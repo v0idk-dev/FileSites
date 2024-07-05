@@ -1,3 +1,11 @@
-/.hintrc
-/.history
-/.vscode
+**/.hintrc
+**/.history
+**/.vscode
+**/.DS_Store
+**/Thumbs.db
+**/.svn
+**/.hg
+**/CVS
+/FileSites.png.kra
+/.FileSites.png-autosave.kra
+/Filesites.png
